@@ -27,7 +27,7 @@ export default function Home(){
 
         <div className=" flex justify-center mt-10">
           <a href="blog" className=" flex justify-center items-center text-white border-white border-2 w-40 rounded-xl hover:bg-white hover:text-black sm:text-lg lg:text-xl lg:w-48 lg:h-10">
-            `Let's Explore &#8594;`
+            `Let's Explore`
           </a>
         </div>
       </div>
