@@ -1,7 +1,12 @@
+import Image from "next/image";
 
 export default function Home(){
   return(
-    <main className=" bg-black relative w-screen h-screen p-3 flex justify-center pt-32 sm:p-5 xl:items-center">
+    <main className=" bg-white relative w-screen h-screen p-3 flex justify-center pt-32 sm:p-5 xl:items-center">
+      <div className="">
+        <Image src="/image/siteOnprog.png" alt="" width={1000} height={1000} className=" w-screen h-screen " />
+      </div>
+    {/*  
       <div className=" absolute inset-0 w-screen h-screen border bg-main bg-repeat bg-cover bg-bottom opacity-50"></div>
       <div className="w-96 sm:w-full relative z-10 ">
         <header className=" flex justify-center ">
@@ -31,7 +36,7 @@ export default function Home(){
             Let's Explore &#8594;
           </a>
         </div>
-      </div>
+      </div>*/}
     </main>
   );
 }
